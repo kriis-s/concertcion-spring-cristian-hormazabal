@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eventos
+
+  mongodb:
+    uri: ${MONGODB_URI}
+    database: ${MONGODB_DATABASE:concertcion}
+
+server:
+  port: ${PORT:8080}
