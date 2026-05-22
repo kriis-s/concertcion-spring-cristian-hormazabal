@@ -3,7 +3,7 @@ spring:
     name: eventos
 
   mongodb:
-    uri: ${MONGODB_URI}
+    uri: ${MONGODB_URI:mongodb://localhost:27017/concertcion}
     database: ${MONGODB_DATABASE:concertcion}
 
 server:
