@@ -1,2 +1,1 @@
-# concertcion-spring-cristian-hormazabal
-Cristian Hormazabal
+API REST Spring para administración de eventos
